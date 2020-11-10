@@ -2,15 +2,15 @@
     <div>
         <b-button class="create" variant="primary" v-b-modal.modal-prevent-closing>Erstellen</b-button>
         <b-card-group deck>
-            <div class="threads" v-for="thread in threads" :key="thread.title">
+            <div class="threads" v-for="thread in threads" :key="thread.id">
                 <router-link
                         :to="{
             name: 'ThreadDetail',
-            params: { title: thread.title }
+            params: { id: thread.id }
           }"
                 >
                     <b-card bg-variant="default" text-variant="black" :header="thread.title" class="text-center">
-                        <b-card-text>{{thread.content}}</b-card-text>
+                        <b-card-text class="content">{{thread.content}}</b-card-text>
                     </b-card>
                 </router-link>
             </div>
@@ -63,6 +63,7 @@
         name: "Threads",
         data () {
             return {
+                id: 0,
                 title: '',
                 content: '',
                 titleState: null,
@@ -95,6 +96,10 @@
                     return
                 }
                 // Push the name to submitted names
+                this.id = this.threads.length + 1
+                while (this.threads.some(e => e.id === this.id)) {
+                this.id++;
+              }
                 this.threads.push({id: this.id, title: this.title, content: this.content})
                 // Hide the modal manually
                 this.$nextTick(() => {
@@ -117,6 +122,13 @@
         width: 30%;
         margin-left: 10px;
         margin-bottom: 20px;
+    }
+
+    .content {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 4;
+      overflow: hidden;
     }
 
     a {

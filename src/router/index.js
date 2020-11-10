@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 import Threads from "@/components/Threads";
-import store from "@/store";
+import ThreadDetail from "@/components/ThreadDetail";
 
 Vue.use(Router)
 
@@ -17,21 +17,9 @@ export default new Router({
             component: Threads
         },
         {
-            path: '/thread/:title',
+            path: '/thread/:id',
             name: 'ThreadDetail',
-            props: true,
-            component: () =>
-                import(/* webpackChunkName: "DestinationDetails"*/ "@/components/ThreadDetail"),
-            beforeEnter: (to, from, next) => {
-                const exists = store.threads.find(
-                    thread => thread.title === to.params.title
-                );
-                if (exists) {
-                    next();
-                } else {
-                    next({ name: "notFound" });
-                }
-            }
+            component: ThreadDetail
         }
     ],
 

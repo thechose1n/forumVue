@@ -11,21 +11,16 @@
 
     export default {
         name: "ThreadDetail",
-        props: {
-            title: {
-                type: String,
-                required: true
-            }
-        },
         data() {
             return {
+              threadId: this.$route.params.id,
             }
 
         },
         computed: {
-            threads() {
+            thread() {
                 return store.threads.find(
-                    thread => thread.title === this.title
+                    thread => thread.id === this.threadId
                 );
             }
         }
@@ -33,5 +28,7 @@
 </script>
 
 <style scoped>
+
+
 
 </style>
