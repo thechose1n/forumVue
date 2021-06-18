@@ -3,10 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="2276a680-0fef-4696-a01b-003341eec54e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7123766f7dcdb4bc5338d4c91e6148f1.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/7123766f7dcdb4bc5338d4c91e6148f1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd8fe204529e85b474a39021a93b17dc.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/bd8fe204529e85b474a39021a93b17dc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c61d970d5ee002f4bc4f6a956ed63151.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/c61d970d5ee002f4bc4f6a956ed63151.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/093a5f9653477455c2b0765ba65a4a80.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/093a5f9653477455c2b0765ba65a4a80.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5d05f6b6a3c59f3056cb50b6a804c1c9.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/5d05f6b6a3c59f3056cb50b6a804c1c9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7f3b97d0bb2de3d301347ddf372bf87d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/7f3b97d0bb2de3d301347ddf372bf87d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/92767e335a49fdc658d6d7820b340ff7.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/92767e335a49fdc658d6d7820b340ff7.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9c26fbe1baa826a74528ba1d4de5b08f.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/9c26fbe1baa826a74528ba1d4de5b08f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b8041cba75e98295446ed245fb7ce65d.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/b8041cba75e98295446ed245fb7ce65d.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bfaa77d4f0f07a7e3b592438252b894e.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bfaa77d4f0f07a7e3b592438252b894e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e2ae3663fdb8c584d2892bb94d24d3e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/e2ae3663fdb8c584d2892bb94d24d3e3.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f239df7730fe0cc625918c2d9a89e549.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/f239df7730fe0cc625918c2d9a89e549.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ThreadDetail.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThreadDetail.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Threads.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Threads.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,16 +25,47 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="ProjectId" id="1j0M3KVca8f9HHVdn5nf4Lk0eaO" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="proofread" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="serve" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="serve" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.serve" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -38,11 +78,23 @@
       <workItem from="1602936356940" duration="119000" />
       <workItem from="1603028271401" duration="16000" />
       <workItem from="1603492245348" duration="2000" />
-      <workItem from="1605007272591" duration="3418000" />
+      <workItem from="1605007272591" duration="3623000" />
+      <workItem from="1608032666348" duration="3238000" />
+      <workItem from="1622031551323" duration="5668000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="149" y="25" key="SettingsEditor" timestamp="1622047161739">
+      <screen x="0" y="25" width="1280" height="686" />
+    </state>
+    <state x="149" y="25" key="SettingsEditor/0.25.1280.686@0.25.1280.686" timestamp="1622047161739" />
+    <state x="305" y="35" width="670" height="676" key="search.everywhere.popup" timestamp="1622047101814">
+      <screen x="0" y="25" width="1280" height="686" />
+    </state>
+    <state x="305" y="35" width="670" height="676" key="search.everywhere.popup/0.25.1280.686@0.25.1280.686" timestamp="1622047101814" />
   </component>
 </project>
