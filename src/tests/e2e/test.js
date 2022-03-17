@@ -1,7 +1,9 @@
 describe('thready demo', function() {
 
+    // Redirect to localhost
     before(browser => browser.navigateTo('http://localhost:8080/'));
 
+    // Test following steps
     test('demo test thready', function(browser) {
         browser
             .waitForElementVisible('body')

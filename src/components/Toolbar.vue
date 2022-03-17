@@ -1,5 +1,6 @@
 <template>
     <div>
+        <!-- adds the toolbar -->
         <b-navbar toggleable="sm" type="light" variant="light">
             <b-navbar-toggle target="nav-text-collapse"></b-navbar-toggle>
 

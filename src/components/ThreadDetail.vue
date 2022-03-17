@@ -1,5 +1,6 @@
 <template>
     <div>
+      <!-- Display title and text in detail view -->
       <b-card :title=thread.title>
         <b-card-text>
           {{ thread.content }}
@@ -22,7 +23,7 @@
 
         },
         computed: {
-          //Funktion zur Filterung der Threads anhand des übermittelten Parameters 'id'
+          // Filter thread through returned id
             thread() {
                 return store.threads.find(
                     thread => thread.id == this.threadId
@@ -30,6 +31,7 @@
             }
         },
         methods: {
+          // Delete thread through id
           deleteThread (id) {
             store.threads = store.threads.filter(function(obj) {
               return obj.id !== id;
