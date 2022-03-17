@@ -1,24 +1,24 @@
 # forumvue
 
-## Project setup
+## project setup
+
+### install Node Package Manager for Your Operating System at
+```
+https://nodejs.org/en/download/
+```
+
+### install npm in project
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### run application
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
